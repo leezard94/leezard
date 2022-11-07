@@ -1,0 +1,29 @@
+
+----기본셋팅----
+
+git config --global user.name 이름
+git config --global user.email 이메일
+
+
+-c 드라이브에 나의 폴더 만들기
+
+-그리고 깃 https 복사
+
+
+-cd C:\내가만든폴더
+-git clone(다운로드) https
+
+warning: You appear to have cloned an empty reposotory  라는 문구가 뜨면 됨.
+
+- 그러면 githube 로 만든 아이디 파일이 나의 폴더안에 생성됨.
+
+
+
+
+----파일 올리기----
+
+
+-cd (git hub 닉네임)
+-git add (올릴 파일이름.확장자)
+-git commit -m "Add Text File [파일이름.확장자]"
+-git push (넣기)
